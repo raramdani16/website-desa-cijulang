@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Website Desa Cijulang</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0" id="menu">
+                         <img src="img/LogoKab.Ciamis.png" alt="Utensils Icon" class="m-2 mt-0" style="width:50px; height:40px;">
+                          DESA CIJULANG
+                     </h1>
+                     <!-- <img src="img/logo.png" alt="Logo"> -->
+                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Beranda</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> Lembaga Masyarakat</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="bpd.html" class="dropdown-item">BPD</a>
+                                <a href="lpm.html" class="dropdown-item">LPM</a>
+                                <a href="karangtaruna.html" class="dropdown-item">Karangtaruna</a>
+                                <a href="pkk.html" class="dropdown-item">PKK</a>
+                            </div>
+                        </div>
+                       <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Tentang Desa</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="about.html" class="dropdown-item">Profil Desa</a>
+                                <a href="sejarah.html" class="dropdown-item">Sejarah Desa</a>
+                                <a href="wilayah.html" class="dropdown-item">Wilayah Administratif</a>
+                            </div>
+                        </div>
+                        <a href="umkm.html" class="nav-item nav-link">UMKM</a>
+                        
+                        <a href="contact.html" class="nav-item nav-link">Kontak</a>
+                        <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan Desa</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="kkn.html" class="dropdown-item">KKN</a>
+                                <!-- <a href="team.html" class="dropdown-item">Pertanian</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">WILAYAH ADMINISTRATIF</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+                            <li class="breadcrumb-item"><a href="#">Tentang Desa</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Wilayah Administratif</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title text-center text-primary fw-normal">Wilayah</h5>
+            <h1 class="mb-2">Wilayah Administratif</h1>
+        </div>
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th colspan="8">Wilayah / Ketua</th>
+                                <th style="text-align: center;">KK</th>
+                                <th style="text-align: center;">L+P</th>
+                                <th style="text-align: center;">L</th>
+                                <th style="text-align: center;">P</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <td align="center">1</td>   
+                                    <td align="left" colspan="8">
+                                        Dusun Desa</td>
+                                    <td align="center">426</td>
+                                    <td align="center">1197</td>
+                                    <td align="center">589</td>
+                                    <td align="center">608</td>
+                                </tr>
+                     
+                                        <tr>
+                                            <td></td>
+                                            <td align="center">1</td>
+                                            <td align="left" colspan="7">
+                                                RW 001																			</td>
+                                            <td align="center">210</td>
+                                            <td align="center">605</td>
+                                            <td align="center">298</td>
+                                            <td align="center">307</td>
+                                        </tr>
+                                    
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">1</td>
+                                                <td align="left" colspan="6">
+                                                    RT 001																					</td>
+                                                <td align="center">65</td>
+                                                <td align="center">202</td>
+                                                <td align="center">101</td>
+                                                <td align="center">101</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">2</td>
+                                                <td align="left" colspan="6">
+                                                    RT 002																					</td>
+                                                <td align="center">67</td>
+                                                <td align="center">180</td>
+                                                <td align="center">87</td>
+                                                <td align="center">93</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">3</td>
+                                                <td align="left" colspan="6">
+                                                    RT 003																					</td>
+                                                <td align="center">78</td>
+                                                <td align="center">223</td>
+                                                <td align="center">110</td>
+                                                <td align="center">113</td>
+                                            </tr>
+                                                                                                                                                        <tr>
+                                            <td></td>
+                                            <td align="center">2</td>
+                                            <td align="left" colspan="7">
+                                                RW 002																			</td>
+                                            <td align="center">216</td>
+                                            <td align="center">592</td>
+                                            <td align="center">291</td>
+                                            <td align="center">301</td>
+                                        </tr>
+                                    
+                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">1</td>
+                                                <td align="left" colspan="6">
+                                                    RT 004																					</td>
+                                                <td align="center">56</td>
+                                                <td align="center">146</td>
+                                                <td align="center">68</td>
+                                                <td align="center">78</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">2</td>
+                                                <td align="left" colspan="6">
+                                                    RT 005																					</td>
+                                                <td align="center">64</td>
+                                                <td align="center">186</td>
+                                                <td align="center">94</td>
+                                                <td align="center">92</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">3</td>
+                                                <td align="left" colspan="6">
+                                                    RT 006																					</td>
+                                                <td align="center">96</td>
+                                                <td align="center">260</td>
+                                                <td align="center">129</td>
+                                                <td align="center">131</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                    <td align="center">2</td>
+                                    <td align="left" colspan="8">
+                                        Dusun Cikole Kulon															</td>
+                                    <td align="center">334</td>
+                                    <td align="center">1044</td>
+                                    <td align="center">552</td>
+                                    <td align="center">492</td>
+                                </tr>
+                                                            
+                                                                                                                        <tr>
+                                            <td></td>
+                                            <td align="center">1</td>
+                                            <td align="left" colspan="7">
+                                                RW 003																			</td>
+                                            <td align="center">180</td>
+                                            <td align="center">548</td>
+                                            <td align="center">275</td>
+                                            <td align="center">273</td>
+                                        </tr>
+                                    
+                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">1</td>
+                                                <td align="left" colspan="6">
+                                                    RT 001																					</td>
+                                                <td align="center">95</td>
+                                                <td align="center">296</td>
+                                                <td align="center">149</td>
+                                                <td align="center">147</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">2</td>
+                                                <td align="left" colspan="6">
+                                                    RT 002																					</td>
+                                                <td align="center">39</td>
+                                                <td align="center">104</td>
+                                                <td align="center">51</td>
+                                                <td align="center">53</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">3</td>
+                                                <td align="left" colspan="6">
+                                                    RT 006																					</td>
+                                                <td align="center">46</td>
+                                                <td align="center">148</td>
+                                                <td align="center">75</td>
+                                                <td align="center">73</td>
+                                            </tr>
+                                                                                                                                                        <tr>
+                                            <td></td>
+                                            <td align="center">2</td>
+                                            <td align="left" colspan="7">
+                                                RW 004																			</td>
+                                            <td align="center">154</td>
+                                            <td align="center">483</td>
+                                            <td align="center">239</td>
+                                            <td align="center">244</td>
+                                        </tr>
+                                    
+                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">1</td>
+                                                <td align="left" colspan="6">
+                                                    RT 003																					</td>
+                                                <td align="center">49</td>
+                                                <td align="center">150</td>
+                                                <td align="center">83</td>
+                                                <td align="center">67</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">2</td>
+                                                <td align="left" colspan="6">
+                                                    RT 004																					</td>
+                                                <td align="center">42</td>
+                                                <td align="center">150</td>
+                                                <td align="center">75</td>
+                                                <td align="center">75</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">3</td>
+                                                <td align="left" colspan="6">
+                                                    RT 005																					</td>
+                                                <td align="center">63</td>
+                                                <td align="center">183</td>
+                                                <td align="center">81</td>
+                                                <td align="center">102</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                    <td align="center">3</td>
+                                    <td align="left" colspan="8">
+                                        Dusun Cicurug															</td>
+                                    <td align="center">272</td>
+                                    <td align="center">844</td>
+                                    <td align="center">430</td>
+                                    <td align="center">414</td>
+                                </tr>                                                
+                                        <tr>
+                                            <td></td>
+                                            <td align="center">1</td>
+                                            <td align="left" colspan="7">
+                                                RW 007																			</td>
+                                            <td align="center">272</td>
+                                            <td align="center">844</td>
+                                            <td align="center">430</td>
+                                            <td align="center">414</td>
+                                        </tr>
+                                    
+                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">1</td>
+                                                <td align="left" colspan="6">
+                                                    RT 001																					</td>
+                                                <td align="center">40</td>
+                                                <td align="center">131</td>
+                                                <td align="center">65</td>
+                                                <td align="center">66</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">2</td>
+                                                <td align="left" colspan="6">
+                                                    RT 002																					</td>
+                                                <td align="center">52</td>
+                                                <td align="center">147</td>
+                                                <td align="center">71</td>
+                                                <td align="center">76</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">3</td>
+                                                <td align="left" colspan="6">
+                                                    RT 003																					</td>
+                                                <td align="center">81</td>
+                                                <td align="center">251</td>
+                                                <td align="center">128</td>
+                                                <td align="center">123</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">4</td>
+                                                <td align="left" colspan="6">
+                                                    RT 004																					</td>
+                                                <td align="center">99</td>
+                                                <td align="center">315</td>
+                                                <td align="center">166</td>
+                                                <td align="center">149</td>
+                                            </tr>
+                                                                                                                
+                                <tr>
+                                    <td align="center">4</td>
+                                    <td align="left" colspan="8">
+                                        Dusun Cikole Wetan</td>
+                                    <td align="center">303</td>
+                                    <td align="center">881</td>
+                                    <td align="center">445</td>
+                                    <td align="center">436</td>
+                                </tr>                        
+                                        <tr>
+                                            <td></td>
+                                            <td align="center">1</td>
+                                            <td align="left" colspan="7">
+                                                RW 005																			</td>
+                                            <td align="center">144</td>
+                                            <td align="center">420</td>
+                                            <td align="center">225</td>
+                                            <td align="center">195</td>
+                                        </tr>
+                                    
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">1</td>
+                                                <td align="left" colspan="6">
+                                                    RT 001																					</td>
+                                                <td align="center">52</td>
+                                                <td align="center">144</td>
+                                                <td align="center">73</td>
+                                                <td align="center">71</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">2</td>
+                                                <td align="left" colspan="6">
+                                                    RT 002																					</td>
+                                                <td align="center">47</td>
+                                                <td align="center">136</td>
+                                                <td align="center">73</td>
+                                                <td align="center">63</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">3</td>
+                                                <td align="left" colspan="6">
+                                                    RT 003</td>
+                                                <td align="center">45</td>
+                                                <td align="center">140</td>
+                                                <td align="center">79</td>
+                                                <td align="center">61</td>
+                                            </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td align="center">2</td>
+                                            <td align="left" colspan="7">
+                                                RW 006			  </td>
+                                            <td align="center">159</td>
+                                            <td align="center">461</td>
+                                            <td align="center">220</td>
+                                            <td align="center">241</td>
+                                        </tr>
+                                    
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">1</td>
+                                                <td align="left" colspan="6">
+                                                    RT 004																					</td>
+                                                <td align="center">50</td>
+                                                <td align="center">142</td>
+                                                <td align="center">66</td>
+                                                <td align="center">76</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">2</td>
+                                                <td align="left" colspan="6">
+                                                    RT 005																					</td>
+                                                <td align="center">48</td>
+                                                <td align="center">130</td>
+                                                <td align="center">63</td>
+                                                <td align="center">67</td>
+                                            </tr>
+                                                                                                                                        <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">3</td>
+                                                <td align="left" colspan="6">
+                                                    RT 006																					</td>
+                                                <td align="center">61</td>
+                                                <td align="center">189</td>
+                                                <td align="center">91</td>
+                                                <td align="center">98</td>
+                                            </tr>
+                                                <tr>
+                                                    <td align="center">5</td>
+                                                    <td align="left" colspan="8">
+                                                        Dusun Cipurut</td>
+                                                    <td align="center">512</td>
+                                                    <td align="center">1702</td>
+                                                    <td align="center">897</td>
+                                                    <td align="center">805</td>
+                                                </tr>                                                       
+                                                       <tr>
+                                                            <td></td>
+                                                            <td align="center">1</td>
+                                                            <td align="left" colspan="7">
+                                                                RW 008																			</td>
+                                                            <td align="center">129</td>
+                                                            <td align="center">958</td>
+                                                            <td align="center">195</td>
+                                                            <td align="center">176</td>
+                                                        </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td align="center">1</td>
+                                                                <td align="left" colspan="6">
+                                                                    RT 001																					</td>
+                                                                <td align="center">29</td>
+                                                                <td align="center">86</td>
+                                                                <td align="center">42</td>
+                                                                <td align="center">44</td>
+                                                            </tr>
+                                                                                                                                                        <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td align="center">2</td>
+                                                                <td align="left" colspan="6">
+                                                                    RT 002																					</td>
+                                                                <td align="center">36</td>
+                                                                <td align="center">107</td>
+                                                                <td align="center">61</td>
+                                                                <td align="center">46</td>
+                                                            </tr>
+                                                                                                                                                        <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td align="center">3</td>
+                                                                <td align="left" colspan="6">
+                                                                    RT 003																					</td>
+                                                                <td align="center">36</td>
+                                                                <td align="center">53</td>
+                                                                <td align="center">51</td>
+                                                                <td align="center">52</td>
+                                                            </tr>
+                                                                                                                                                        <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td align="center">4</td>
+                                                                <td align="left" colspan="6">
+                                                                    RT 004																					</td>
+                                                                <td align="center">28</td>
+                                                                <td align="center">75</td>
+                                                                <td align="center">41</td>
+                                                                <td align="center">34</td>
+                                                            </tr>
+                                                        <tr>
+                                                            <td></td>
+                                                            <td align="center">2</td>
+                                                            <td align="left" colspan="7">
+                                                                RW 009																			</td>
+                                                            <td align="center">124</td>
+                                                            <td align="center">353</td>
+                                                            <td align="center">186</td>
+                                                            <td align="center">167</td>
+                                                        </tr>                                                    
+                                                                                                                        <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td align="center">1</td>
+                                                                <td align="left" colspan="6">
+                                                                    RT 001																					</td>
+                                                                <td align="center">42</td>
+                                                                <td align="center">114</td>
+                                                                <td align="center">63</td>
+                                                                <td align="center">51</td>
+                                                            </tr>
+                                                                                                                                                        <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td align="center">2</td>
+                                                                <td align="left" colspan="6">
+                                                                    RT 002																					</td>
+                                                                <td align="center">39</td>
+                                                                <td align="center">119</td>
+                                                                <td align="center">61</td>
+                                                                <td align="center">58</td>
+                                                            </tr>
+                                                                                                                                                        <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td align="center">3</td>
+                                                                <td align="left" colspan="6">
+                                                                    RT 003																					</td>
+                                                                <td align="center">43</td>
+                                                                <td align="center">120</td>
+                                                                <td align="center">62</td>
+                                                                <td align="center">58</td>
+                                                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-0 pb-2">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title text-start text-primary fw-normal mb-4">Fitur</h4>
+                        <a class="btn btn-link" href="">Beranda</a>
+                        <a class="btn btn-link" href="">Lembaga Masyarakat</a>
+                        <a class="btn btn-link" href="">Tentang Desa</a>
+                        <a class="btn btn-link" href="">UMKM</a>
+                        <a class="btn btn-link" href="">Kontak</a>
+                        <a class="btn btn-link" href="">Kegiatan Desa</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title text-start text-primary fw-normal mb-4">Kontak</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Desa Cijulang, Kec.Cihaurbeuti, Jawa Barat</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>desacijulang@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title text-start text-primary fw-normal mb-4">Buka</h4>
+                        <h5 class="text-light fw-normal">Senin - Jumat</h5>
+                        <p>08:00 - 15:00</p>
+                        <h5 class="text-light fw-normal">Sabtu</h5>
+                        <p>08:00 - 12:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
